@@ -27,7 +27,7 @@ export class App {
     // this.app.use(express.urlencoded());
     this.app.use(
       cors({
-        origin: ["http://localhost:3000", "https://boots-fe.vercel.app/"],
+        origin: ["http://localhost:3000", "https://boots-fe.vercel.app"],
       })
     );
   }
